@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input::placeholder {
+            font-size: 1.5em; /* Adjust the size as needed */
+        }
+    
+        
+       
+       
+    </style>
+</head>
+<body>
+    
+<center>
+    <div style="border: 1px solid white; width: 350px; margin-top: 90px; height: 540px;border-radius: 18px;background-color: #ecf0f3;box-shadow: 2px 4px 12px   gray;">
+        <div style="border: 1px solid rgb(190, 188, 188); width: 90px; height: 90px; margin-top: 40px;border-radius:80px;" >
+            
+        <img style="margin-top: 5px;" width="80px" src="./123.png" alt="">
+    </div>
+        <form action="/submit_registration" method="post" style="text-align: center;">
+
+            <h2 style="padding: 10px;color: rgb(83, 82, 82);">My Bank</h2>
+            
+            <input id="username" style="height: 46px; width: 250px; border-radius: 20px; border: none; box-shadow: inset 4px 11px 30px #cbced1, inset -8px -8px 8px #fff; " type="text" class="form-control"  placeholder="   Username" required><br><br>
+    
+
+            <input  id="usernumber" style="height: 46px; width: 250px; border-radius: 20px; border: none; box-shadow: inset 4px 11px 30px #cbced1, inset -8px -8px 8px #fff;" type="text"  placeholder="   Account number" required><br><br>
+
+            <input  id="userpassword" style="height: 46px; width: 250px; border-radius: 20px; border: none; box-shadow: inset 4px 11px 30px #cbced1, inset -8px -8px 8px #fff;" type="password"  placeholder="   Password" required><br><br>
+    
+            <button  style="height: 38px; width: 250px; border-radius: 20px;text-align: center; font-size: 17.4px;letter-spacing: .1cap; border: none; color: white; background-color: rgb(37, 133, 249); " onclick="register()">Register </button><br><br>
+            
+
+            <a style="text-decoration: none; color: blue;" href="">Sign in</a>
+        </form>
+    </div>
+</center>
+
+<script>
+    function register() {
+        window.location.href='./login.html'
+        
+    }
+</script>
+
+
+
+<script src="regis.js"></script>
+</body>
+</html>
